@@ -1,0 +1,24 @@
+{
+  "name": "platform-app",
+  "version": "1.0.0",
+  "description": "A native app shell using Capacitor that displays a form and interacts with a SQLite database.",
+  "main": "src/main.ts",
+  "scripts": {
+    "serve": "vite",
+    "build": "vite build",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "vue": "^3.0.0",
+    "@capacitor/core": "^3.0.0",
+    "@capacitor/cli": "^3.0.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "vite": "^2.0.0",
+    "typescript": "^4.0.0",
+    "eslint": "^7.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
